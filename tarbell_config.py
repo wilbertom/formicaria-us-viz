@@ -23,7 +23,7 @@ EXCLUDES = ["*.md", "requirements.txt"]
 # SPREADSHEET_CACHE_TTL = 4
 
 # Get context from a local file or URL. This file can be a CSV or Excel
-# spreadsheet file. Relative, absolute, and remote (http/https) paths can be 
+# spreadsheet file. Relative, absolute, and remote (http/https) paths can be
 # used.
 # CONTEXT_SOURCE_FILE = ""
 
@@ -48,5 +48,5 @@ DEFAULT_CONTEXT = {
                                   'column2': u'key2, column2',
                                   'key': u'key2'}},
     'name': 'formicaria-us-viz',
-    'title': 'A visualization of data about ants in the USA'
+    'title': 'Formicaria US'
 }

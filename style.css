@@ -1,0 +1,22 @@
+body {
+  color: #3f4f49;
+}
+.navbar-formicaria {
+  background-color: #3f4f49;
+  border-color: #3f4f49;
+}
+.point {
+  fill: #ffffff;
+  stroke: #BDBDBD;
+}
+.land {
+  fill: #3f4f49;
+}
+.state-boundary {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2px;
+}
+#map-side {
+  display: inline;
+}
