@@ -2,6 +2,8 @@
 
 {% block content %}
 <div class="container">
+    <h2>School of Ants</h2>
+    <p class="lead"><i>A citizen-scientist driven study of the ants that live in urban areas. Participation is open to anyone!</i></p>
     <div class="row">
         <div class="col-md-6 col-lg-9" id="map"></div>
         <div class="col-md-6 col-lg-3" id="map-side"></div>
@@ -11,23 +13,20 @@
 
 
 <script type="text/template" id="index-view">
-
-
-<table class="table">
-
-    <caption><h3><%= d['lat'] %>, <%= d['lon'] %></h3></caption>
-    <thead>
-        <tr><th>Genus</th><th>Species</th></tr>
-    <thead>
-    <tbody>
-        <% _.each(d['species'], function(s) { %>
-            <tr>
-                <td><%= s['taxonomy_genus'] %></td>
-                <td><%= s['taxonomy_species'] %></td>
-            </tr>
-        <% }); %>
-    </tbody>
-</table>
+    <table class="table">
+        <caption><h3><%= d['lat'] %>, <%= d['lon'] %></h3></caption>
+        <thead>
+            <tr><th>Genus</th><th>Species</th></tr>
+        <thead>
+        <tbody>
+            <% _.each(d['species'], function(s) { %>
+                <tr>
+                    <td><%= s['taxonomy_genus'] %></td>
+                    <td><%= s['taxonomy_species'] %></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
 </script>
 
 {% endblock content %}
