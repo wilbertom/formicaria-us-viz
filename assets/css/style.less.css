@@ -9,8 +9,7 @@ body {
   color: #ffffff;
 }
 .point {
-  fill: #ffffff;
-  stroke: #cad0cc;
+  fill: #d24445;
 }
 .land {
   fill: #3f4f49;
@@ -21,7 +20,6 @@ body {
   stroke-width: 2px;
 }
 #map-side {
-  display: inline;
   background-color: black;
   color: #cad0cc;
 }
